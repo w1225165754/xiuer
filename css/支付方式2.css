@@ -1,0 +1,484 @@
+/*导航开始*/
+body{
+    position: fixed;
+}
+.header{
+    width: 100%;
+    height: 2.23rem;
+    background: rgb(255,140,41);
+    position: absolute;
+}
+.header-nav{
+    width: 7.08rem;
+    height: 0.48rem;
+    /*    background: #f96868;*/
+    margin-top: 0.26rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-1{
+    width: 0.4rem;
+    height: 100%;
+    /*    background: #2940ff;*/
+}
+.nav-1 img{
+    width: 0.38rem;
+    height: 0.38rem;
+    margin-top: 0.05rem;
+}
+.nav-2{
+    width: 1.55rem;
+    height: 100%;
+    /*    background: #83c44e;*/
+    font-size: 0.38rem;
+    text-align: center;
+    color: rgb(253,248,254);
+    padding-top:0.05rem;
+}
+.message{
+    width: 7.08rem;
+    height: 0.85rem;
+    /*    background: #16b0dc;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.51rem;
+}
+.message-1{
+    width: 100%;
+    height: 0.2rem;
+    /*    background: #7dff1a;*/
+    color: rgb(253,248,254);
+    font-size: 0.18rem;
+}
+.message-2{
+    width: 100%;
+    height: 0.21rem;
+    font-size: 0.22rem;
+    color: rgb(253,248,254);
+    margin-top: 0.07rem;
+}
+.message-3 {
+    width: 100%;
+    height: 0.21rem;
+    color: rgb(253,248,254);
+    font-size: 0.22rem;
+    margin-top: 0.13rem;
+    float: left;
+}
+.message-4{
+    width: 1.6rem;
+    height: 0.3rem;
+    /*background: #ff1b0c;*/
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    margin-right: 3.6rem;
+    margin-top: -0.01rem;
+}
+.phone i{
+    width: 0.1rem;
+    height: 0.18rem;
+}
+.message-3-1{
+    width: 1.2rem;
+    height: 0.14rem;
+    color: rgb(253,248,254);
+    font-size: 0.18rem;
+}
+/*导航结束*/
+.big-box{
+    width: 7.5rem;
+    height: 15.63rem;
+    background: #eeeeee;
+    margin: 0 auto;
+}
+/*送达时间开始*/
+.time-box{
+    width: 7.02rem;
+    height: 2.96rem;
+    background: #eeeeee;
+    position: relative;
+    top: 2.39rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.time-img img{
+    width: 0.23rem;
+    height: 0.23rem;
+    float: left;
+}
+.time-1{
+    width: 2.8rem;
+    height: 0.23rem;
+    /* background: #16b0dc;*/
+    color: rgb(255,140,41);
+    font-size: 0.24rem;
+}
+.sm-box{
+    width: 7.02rem;
+    height: 1.37rem;
+    background: #fff;
+    margin-top: 0.22rem;
+    border-width: 0.1rem;
+    border-radius: 0.15rem;
+}
+.sm-1{
+    width: 6.39rem;
+    height: 0.685rem;
+    /*  background: #ff1b0c;*/
+    border-bottom:1px dashed #a3a3a3;
+    margin-top: 0.26rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-content: center;
+}
+.sm-1-1{
+    width: 100%;
+    height: 0.22rem;
+    /*    background: #83c44e;*/
+    margin-top: 0.25rem;
+    margin-bottom: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+}
+.sm-1-time{
+    font-size: 0.22rem;
+    color: rgb(255,140,41);
+}
+.sm-1-times{
+    font-size: 0.2rem;
+    color: rgb(255,140,41);
+}
+.sm-2{
+    width: 6.39rem;
+    height: 0.685rem;
+    /*   background: #ff1b0c;*/
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-content: center;
+}
+.sm-1-times img{
+    width: 0.21rem;
+    height: 0.24rem;
+}
+.que{
+    width: 2.36rem;
+    height: 0.29rem;
+    font-size: 0.28rem;
+    color: rgb(255,140,41);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+}
+.eng{
+    width: 3.2rem;
+    height: 0.19rem;
+    font-size: 0.24rem;
+    color: rgb(255,178,12);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.05rem;
+}
+/*送达时间结束*/
+/*商品开始*/
+.shopping-box{
+    width: 7.5rem;
+    height: 4.4rem;
+    /*    background: #83c44e;*/
+    margin-top: 3.2rem;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.shopping-message{
+    width: 6.96rem;
+    height: 1.15rem;
+    background: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    border-width: 0.1rem;
+    border-radius: 0.15rem;
+}
+.tu{
+    width: 1.17rem;
+    height: 0.9rem;
+    /* background: #ff1b0c;*/
+    margin-top: 0.1rem;
+    margin-left: 0.09rem;
+}
+.tu img{
+    width: 100%;
+    height: 100%;
+}
+.shopping-1{
+    height: 0.9rem;
+    width: 5.33rem;
+    /*    background: #54a0c4;*/
+    margin-top: 0.1rem;
+}
+.shopping-1-1{
+    width: 3.6rem;
+    height: 0.45rem;
+    /*   background: #f96868;*/
+    border-bottom: 1px dashed #eeeeee;
+    font-size: 0.26rem;
+    color: #000;
+    text-align: left;
+}
+.shopping-1-1 span{
+    margin-top: 0.11rem;
+    position: absolute;
+}
+.shopping-2{
+    width: 100%;
+    height: 0.45rem;
+    /*   background: #2b20dc;*/
+}
+.shopping-2-1{
+    width: 3.5rem;
+    height: 0.22rem;
+    /*  background: #c735af;*/
+    font-size: 0.22rem;
+    color: rgb(214,13,30);
+    padding-top: 0.15rem;
+}
+.shopping-2 span{
+    font-size: 0.22rem;
+    color: rgb(255,178,12);
+    margin-left: 0.35rem;
+}
+.shopping-3{
+    width: 1.28rem;
+    height: 0.44rem;
+    /*    background: #16b0dc;*/
+    float: right;
+    margin-top: -0.45rem;
+    margin-right: 0.22rem;
+    display: flex;
+    justify-content: space-between;
+}
+.shopping-3 img{
+    width: 0.44rem;
+    height: 0.44rem;
+}
+.shopping-3 span{
+    font-size: 0.26rem;
+    color: rgb(255,195,89);
+    padding-top: 0.1rem;
+}
+.sun{
+    width: 7.04rem;
+    height: 0.93rem;
+    margin-right: auto;
+    margin-left: auto;
+    background: #ffffff;
+    margin-top: 7.6rem;
+    border-width: 0.1rem;
+    border-radius: 0.15rem;
+    padding-top: 0.35rem;
+}
+.sun-1{
+    width: 6.3rem;
+    height: 0.25rem;
+    /*   background: #16b0dc;*/
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.sun-1 span{
+    font-size: 0.26rem;
+    color: #000;
+}
+.sun-1 p{
+    font-size: 0.28rem;
+    color: rgb(255,41,111);
+}
+.discount{
+    width: 6.38rem;
+    height: 0.18rem;
+    /*    background: #16b0dc;*/
+    margin: 0.2rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+.discount span{
+    font-size: 0.18rem;
+    color: rgb(251,100,145);
+}
+.bei{
+    width: 7.04rem;
+    height: 0.93rem;
+    background: #ffffff;
+    margin: auto;
+    border-width: 0.1rem;
+    border-radius: 0.15rem;
+    padding-top: 0.35rem;
+}
+.cai{
+    width: 7.04rem;
+    height: 0.93rem;
+    background: #ffffff;
+    border-radius: 0.15rem;
+    padding-top: 0.35rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0.36rem;
+}
+.cai h6{
+    font-size: 0.18rem;
+    color: rgb(109,190,97);
+}
+.button{
+    width: 1.7rem;
+    height: 0.62rem;
+    background: rgb(255,41,111);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.4rem;
+    font-size: 0.3rem;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 0.15rem;
+    border-width: 0.1rem;
+    border-radius: 0.8rem;
+}
+/*商品结束*/
+/*中间部分开始*/
+.bigger{
+    width: 7.5rem;
+    height: 16rem;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -16rem;
+}
+.zhi-box{
+    width: 5.19rem;
+    height: 3.7rem;
+    background: #ffffff;
+    margin-left: 1.2rem;
+    margin-top: 4.55rem;
+    position: absolute;
+    border-width: 0.1rem;
+    border-radius: 0.15rem;
+}
+.zhi-1{
+    width: 2.07rem;
+    height: 0.26rem;
+    font-size: 0.28rem;
+    color: rgb(255,178,0);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.23rem;
+}
+.zhi-2{
+    width: 0.89rem;
+    height: 0.19rem;
+    font-size: 0.24rem;
+    color: #ffcf8d;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0.42rem;
+}
+.zhi-3{
+    width: 100%;
+    height: 0.18rem;
+ /*   background: #ff1b0c;*/
+    margin-top: 0.73rem;
+}
+.zhi-3 img{
+    width: 0.27rem;
+    height: 0.18rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 1.31rem;
+}
+.zhi-3-2{
+    width: 2.4rem;
+    height: 0.17rem;
+    font-size: 0.18rem;
+    color: rgb(0,0,0);
+    margin-left: 1.71rem;
+    margin-top: -0.22rem;
+}
+.zhi-3-3 img{
+    width: 0.11rem;
+    height: 0.18rem;
+    margin-left: 4.7rem;
+    margin-top: -0.17rem;
+    position: absolute;
+}
+.zhi-4{
+    width: 100%;
+    height: 0.43rem;
+  /*  background: #ff1b0c;*/
+    margin-top: 0.54rem;
+    display: flex;
+    justify-content: space-around;
+}
+.zhi-4-1{
+    width: 0.5rem;
+    height: 100%;
+ /*   background: #83c44e;*/
+}
+.cir{
+    width: 0.14rem;
+    height: 0.14rem;
+    border-radius: 50%;
+    background: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.1rem;
+}
+.zhi-b{
+    width: 100%;
+    height: 0.08rem;
+    background: #e5dde5;
+    margin-top: 0.1rem;
+    border-width: 0.1rem;
+    border-radius: 0.8rem;
+
+}
+.g{
+    margin-left: 0.22rem;
+
+}
+.zhi-c{
+    width: 100%;
+    height: 0.08rem;
+    background: #ff8c29;
+    margin-top: 0.1rem;
+    border-width: 0.1rem;
+    border-radius: 0.8rem;
+}
+.zhi-5{
+    width: 1.5rem;
+    height: 0.18rem;
+/*    background: #83c44e;*/
+    margin-top: 0.26rem;
+    margin-left: 3.84rem;
+    font-size: 0.18rem;
+    color: #a39da3;
+}
+.zhi-5 img{
+    width: 0.18rem;
+    height: 0.18rem;
+    margin-right: 0.05rem;
+}
+.footer img{
+    width: 100%;
+    height: 5.3rem;
+    margin-top: 10.5rem;
+}
+/*中间部分结束*/

@@ -1,0 +1,313 @@
+/*导航开始*/
+body{
+    position: fixed;
+}
+.header{
+    width: 100%;
+    height: 2.23rem;
+    background: rgb(255,140,41);
+    position: absolute;
+}
+.header-nav{
+    width: 7.08rem;
+    height: 0.48rem;
+    /*    background: #f96868;*/
+    margin-top: 0.26rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-1{
+    width: 0.4rem;
+    height: 100%;
+    /*    background: #2940ff;*/
+}
+.nav-1 img{
+    width: 0.38rem;
+    height: 0.38rem;
+    margin-top: 0.05rem;
+}
+.nav-2{
+    width: 1.55rem;
+    height: 100%;
+    /*    background: #83c44e;*/
+    font-size: 0.38rem;
+    text-align: center;
+    color: rgb(253,248,254);
+    padding-top:0.05rem;
+}
+.message{
+    width: 7.08rem;
+    height: 0.85rem;
+    /*    background: #16b0dc;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.51rem;
+}
+.message-1{
+    width: 100%;
+    height: 0.2rem;
+    /*    background: #7dff1a;*/
+    color: rgb(253,248,254);
+    font-size: 0.18rem;
+}
+.message-2{
+    width: 100%;
+    height: 0.21rem;
+    font-size: 0.22rem;
+    color: rgb(253,248,254);
+    margin-top: 0.07rem;
+}
+.message-3 {
+    width: 100%;
+    height: 0.21rem;
+    color: rgb(253,248,254);
+    font-size: 0.22rem;
+    margin-top: 0.13rem;
+    float: left;
+}
+.message-4{
+    width: 1.6rem;
+    height: 0.3rem;
+    /*background: #ff1b0c;*/
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    margin-right: 3.6rem;
+    margin-top: -0.01rem;
+}
+.phone i{
+    width: 0.1rem;
+    height: 0.18rem;
+}
+.message-3-1{
+    width: 1.2rem;
+    height: 0.14rem;
+    color: rgb(253,248,254);
+    font-size: 0.18rem;
+}
+/*导航结束*/
+.big-box{
+    width: 7.5rem;
+    height: 15.63rem;
+    background: #eeeeee;
+    margin: 0 auto;
+}
+/*送达时间开始*/
+.time-box{
+    width: 7.02rem;
+    height: 2.96rem;
+    background: #eeeeee;
+    position: relative;
+    top: 2.39rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.time-img img{
+    width: 0.23rem;
+    height: 0.23rem;
+    float: left;
+}
+.time-1{
+    width: 2.8rem;
+    height: 0.23rem;
+    /* background: #16b0dc;*/
+    color: rgb(255,140,41);
+    font-size: 0.24rem;
+}
+.sm-box{
+    width: 7.02rem;
+    height: 1.37rem;
+    background: #fff;
+    margin-top: 0.22rem;
+    border-width: 0.1rem;
+    border-radius: 0.15rem;
+}
+.sm-1{
+    width: 6.39rem;
+    height: 0.685rem;
+    /*  background: #ff1b0c;*/
+    border-bottom:1px dashed #a3a3a3;
+    margin-top: 0.26rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-content: center;
+}
+.sm-1-1{
+    width: 100%;
+    height: 0.22rem;
+    /*    background: #83c44e;*/
+    margin-top: 0.25rem;
+    margin-bottom: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+}
+.sm-1-time{
+    font-size: 0.22rem;
+    color: rgb(255,140,41);
+}
+.sm-1-times{
+    font-size: 0.2rem;
+    color: rgb(255,140,41);
+}
+.sm-2{
+    width: 6.39rem;
+    height: 0.685rem;
+    /*   background: #ff1b0c;*/
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-content: center;
+}
+.sm-1-times img{
+    width: 0.21rem;
+    height: 0.24rem;
+}
+.que{
+    width: 2.36rem;
+    height: 0.29rem;
+    font-size: 0.28rem;
+    color: rgb(255,140,41);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+}
+.eng{
+    width: 3.2rem;
+    height: 0.19rem;
+    font-size: 0.24rem;
+    color: rgb(255,178,12);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.05rem;
+}
+/*送达时间结束*/
+.biggest{
+    width: 7.5rem;
+    height: 16rem;
+    margin: -3.4rem auto;
+    position: absolute;
+    z-index: 1;
+    background: rgba(0,0,0,0.5);
+}
+/*支付方式开始*/
+.zhi-box{
+    width: 7.5rem;
+    height: 8.77rem;
+    background: #ffffff;
+    z-index: 2;
+    margin-left:  auto;
+    margin-right: auto;
+    margin-top: 3.9rem;
+    position: absolute;
+}
+.zhi-1{
+    width: 4.04rem;
+    height: 0.56rem;
+   /* background: #ff1b0c;*/
+    position: relative;
+    margin-top: 0.74rem;
+    margin-left: 0.49rem;
+    display: flex;
+    justify-content: space-between;
+}
+.zhi-1 img{
+    width: 0.22rem;
+    height: 0.39rem;
+}
+.title{
+    font-size: 0.38rem;
+    color: rgb(254,195,91);
+    padding-top:0.01rem ;
+}
+/*支付方式结束*/
+.zhi-b{
+    width: 3rem;
+    height: 0.27rem;
+ /*   background: #ff1b0c;*/
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2.44rem;
+    margin-top: 0.84rem;
+}
+.zhi-2{
+    width: 1.8rem;
+    height: 100%;
+   /* background: #16b0dc;*/
+    font-size: 0.28rem;
+    color: rgb(17,16,15);
+}
+p{
+    width: 1rem;
+    height: 100%;
+    text-align: center;
+    font-size: 0.28rem;
+    color: rgb(17,16,15);
+}
+.zhi-3{
+    width: 100%;
+    height: 5.27rem;
+   /* background: #16b0dc;*/
+    margin-top: 0.72rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.zhi-3-a{
+    width: 6.86rem;
+    height: 0.8rem;
+/*    background: #f96868;*/
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px dashed #e7e7e7;
+}
+.zhi-3-1{
+    width: 2.03rem;
+    height: 0.22rem;
+  /*  background: #83c44e;*/
+    margin:  0.3rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+.zhi-3-1-1{
+    width: 0.46rem;
+    height: 0.08rem;
+    background: #29dff9;
+}
+span{
+    width: 1.4rem;
+    height: 100%;
+    text-align: left;
+    margin-top: -0.1rem;
+}
+.zhi-3-1-2{
+    width: 0.46rem;
+    height: 0.08rem;
+    background: #f5f91f;
+}
+.zhi-3-1-3{
+    width: 0.46rem;
+    height: 0.08rem;
+    background: #b6bef9;
+}
+.zhi-3-1-4{
+    width: 0.46rem;
+    height: 0.08rem;
+    background: #f93fdd;
+}
+.zhi-3-1-5{
+    width: 0.46rem;
+    height: 0.08rem;
+    background: #7929f9;
+}
+.xu{
+    width: 0.12rem;
+    height: 0.7rem;
+    background: #ff1b0c;
+    margin-top: 0.45rem;
+    margin-left: 6.59rem;
+}
